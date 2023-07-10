@@ -1,0 +1,17 @@
+.ReportError {
+    width: 80%;
+    background-color: rgb(255, 99, 99);
+    border-radius: 12px;
+}
+
+.ReportError ol li {
+    color: white;
+}
+
+.ReportError ol {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 32px;
+}

@@ -1,0 +1,10 @@
+.BarProgress {
+    height: 8px;
+    width: 100%;
+
+    background: rgb(215, 215, 215);
+}
+
+.BarProgress .Bar {
+    height: 100%;
+}

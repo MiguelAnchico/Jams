@@ -1,0 +1,17 @@
+.InfoEnvio {
+    max-width: 700px;
+    width: 100%;
+    margin-bottom: 64px;
+
+    position: relative;
+}
+
+.InfoEnvio .buttonDevolucion {
+    background-color: #643e3e;
+    margin: 16px 0px;
+}
+
+.InfoEnvio .buttonCompletado {
+    background-color: #3e6455;
+    margin: 16px 0px;
+}

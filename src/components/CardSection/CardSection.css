@@ -1,0 +1,73 @@
+.CardSection {
+    margin: 32px;
+    margin-bottom: 128px;
+    position: relative;
+}
+
+.CardSection .CardSectionContent {
+    width: 100%;
+    display: grid;
+    flex-wrap: wrap;
+
+    align-items: center;
+    margin-top: 48px;
+    overflow-y: scroll;
+}
+
+.CardSection .CardSectionContent .CardSectionIconOption {
+    cursor: pointer;
+}
+
+.CardSection .CardSectionTitle {
+    width: 90%;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+
+    border-bottom: 2px solid #ECECF0;
+    margin: auto;
+    padding-bottom: 12px;
+}
+
+.CardSection .CardSectionTitle p {
+    margin-left: 32px;
+}
+
+.CardSection .CardSectionTitle img {
+    opacity: 0.4;
+    width: 32px;
+
+    margin-right: 32px;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.CardSection .CardSectionTitle img:hover {
+    opacity: 1;
+}
+
+.CardSectionIcon {
+    display: flex;
+
+    position: absolute;
+    right: 48px;
+    top: 48px;
+}
+
+.CardSectionIcon img {
+    width: 32px;
+    margin: 12px;
+}
+
+.CardSectionTableTitle {
+    width: 100%;
+	max-width: 1600px;
+
+    display: grid;
+	grid-template-columns: minmax(200px,1fr) minmax(200px,1fr) minmax(300px,1fr) minmax(100px,1fr) minmax(100px,1fr) minmax(100px,1fr) minmax(100px,1fr);
+
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}

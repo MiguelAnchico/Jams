@@ -1,0 +1,74 @@
+.ResumeWallet {
+    position: fixed;
+    bottom: 48px;
+    right: 48px;
+
+    z-index: 999;
+}
+
+.ResumeWallet .ResumeWalletContainer {
+    position: fixed;
+    top: 50%;
+    left:  50%;
+
+    width: 800px;
+    transform: translate(-50%, -50%);
+
+    background-color: #fbfbfb;
+    z-index: 5;
+    border-radius: 12px;
+
+}
+
+.ResumeWallet .ResumeWalletContainer .CloseModal {
+    width: 30px;
+    height: 30px;
+
+    position: fixed;
+    right: 24px;
+    top: 24px;
+    cursor: pointer;
+}
+
+.ResumeWallet .ResumeWalletContainer .ResumeWalletTitle {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.5fr;
+
+    align-items: center;
+    justify-items: center;
+}
+
+.ResumeWallet .ResumeWalletContainer .ResumeWalletTitle input{
+    height: 26px;
+    width: 26px;
+}
+
+.ResumeWallet .ResumeWalletContainer .ResumeWalletTitle h2{
+    padding: 32px;
+}
+
+.ResumeWallet .ResumeWalletContainer  .ResumeWalletContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    align-items: center;
+    justify-items: center;
+
+    gap: 16px;
+    padding-bottom: 48px;
+}
+
+
+.ModalBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.375);
+}

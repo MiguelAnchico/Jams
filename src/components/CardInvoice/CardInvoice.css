@@ -1,0 +1,59 @@
+.CardInvoice {
+    width: 100%;
+    min-width: 750px;
+}
+
+
+.CardInvoice .ClienteInfo div{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+}
+
+.CardInvoice img {
+    width: 128px;
+    object-fit: contain;
+}
+
+.CardInvoice .CardInvoiceProductos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    align-items: center;
+    justify-items: center;
+}
+
+.CardInvoice .CardInvoicePagos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    align-items: center;
+    justify-items: center;
+
+    margin-top: 32px;
+}
+
+.CardInvoice .CardInvoiceModal {
+    height: 550px;
+    width: 700px;
+    padding: 32px;
+    z-index: 100;
+    position: fixed;
+
+    overflow-y: scroll;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.CardInvoice .CardInvoiceModal .CloseModal {
+    width: 60px;
+    height: 30px;
+
+    position: fixed;
+    right: 64px;
+}
+
+.CardInvoice .CardInvoiceButton {
+    margin: 12px 0px;
+}

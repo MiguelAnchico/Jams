@@ -1,0 +1,11 @@
+.InfoCliente {
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+
+    position: relative;
+}
+
+.InfoCliente button {
+    margin: 32px 0px;
+}

@@ -1,0 +1,43 @@
+.Apartado {
+    width: 100%;
+    min-width: 750px;
+}
+
+.Apartado .ModalApartado {
+    position: fixed;
+    width: 660px;
+    top: 30px;
+
+    background: #fbfbfb;
+    padding: 48px;
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+    z-index: 1000;
+}
+
+.Apartado .ModalApartado  .CloseModal {
+    width: 30px;
+    height: 30px;
+
+    position: fixed;
+    right: 48px;
+    cursor: pointer;
+}
+
+.Apartado .Background {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background-color: rgb(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+}
+
+.Apartado .buttonCancelado {
+    margin-top:16px;
+}

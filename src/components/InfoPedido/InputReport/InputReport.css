@@ -1,0 +1,36 @@
+.InputReport {
+    width: 90%;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    background-color: #E9E9E9;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 2px 6px 2px rgba(0, 0, 0, 0.15);
+    margin: 8px 0px;
+    color: black;
+    padding: 0px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.InputReport img {
+    width: 40px;
+    cursor: pointer;
+}
+
+.InfoPedidoMultiContainer .InputReport {
+    padding: 0;
+    width: 89%;
+}
+
+.InfoPedidoMultiContainer .InputReport p{
+    padding: 0px 16px;
+}
+
+.InfoPedidoMultiContainer .InputReport img {
+    padding: 0px 16px;
+}
+
+.InputReportContainer {
+    width: 100%;
+}

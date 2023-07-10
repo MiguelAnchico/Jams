@@ -1,0 +1,123 @@
+.Comentario {
+    display: flex;
+    justify-content: flex-end;
+
+    margin-bottom: 12px;
+}
+.Comentario > p {
+    width: 100%;
+}
+.Comentario .modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.Comentario .modal-container {
+    width: 90%;
+    min-width: 350px;
+    max-width: 600px;
+    height: 700px;
+
+    z-index: 11;
+    background-color: #fbfbfb;
+    border-radius: 12px;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.Comentario .modal-background {
+    width: 100%;
+    height: 100%;
+
+    position: fixed;
+    background-color: rgb(0, 0, 0, 0.4);
+    z-index: 10;
+}
+
+.Comentario .iconComentario {
+    width: 48px;
+    align-self: right;
+}
+
+.Comentario .modal-messages {
+    width: 85%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column-reverse;
+
+    padding: 16px;
+    margin: auto;
+    overflow-y: scroll;
+    gap:16px;
+}
+
+.Comentario .modal-newMessage {
+    display: flex;
+    width: 100%;
+
+    padding: 12px 0px;
+    margin-bottom: 12px;
+}
+
+.Comentario .modal-newMessage textarea {
+    width: 75%;
+    height: 22px;
+
+    padding: 16px;
+    padding-right: 60px;
+    margin: auto;
+
+    background-color: #E9E9E9;
+    border: none;
+    border-radius: 8px;
+
+    resize: none;
+}
+
+.Comentario .modal-newMessage .iconEnviar {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+
+    position: absolute;
+    right: 10%;
+    bottom: 40px;
+    filter: grayscale(1);
+
+    transition: all 250ms;
+}
+
+.Comentario .modal-newMessage .iconEnviar:hover {
+    cursor: pointer;
+    filter: grayscale(0);
+}
+
+.Comentario .modal-newMessage .buttonMessage {
+    width: 0;
+    height: 0;
+    border: 0;
+}
+
+.Comentario .modal  .CloseModal {
+    width: 30px;
+    height: 30px;
+
+    position: absolute;
+    right: 48px;
+    top: 48px;
+    cursor: pointer;
+}

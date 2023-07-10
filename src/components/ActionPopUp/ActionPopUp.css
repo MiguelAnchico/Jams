@@ -1,0 +1,7 @@
+.ActionPopUp {
+    position: fixed;
+    right: 64px;
+    top: 64px;
+
+    z-index: 999;
+}

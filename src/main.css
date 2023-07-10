@@ -1,0 +1,331 @@
+@font-face {
+	font-family: creamson;
+	font-weight: 700;
+	src: url(./assets/fonts/CREAMSON.OTF);
+}
+
+@font-face {
+	font-family: barlow;
+	font-weight: 700;
+	src: url(./assets/fonts/Barlow-Bold.ttf);
+}
+
+@font-face {
+	font-family: barlow;
+	font-weight: 300;
+	src: url(./assets/fonts/Barlow-Light.ttf);
+}
+
+* {
+	content: box-content;
+	margin: 0;
+	padding: 0;
+}
+
+::selection {
+	background:rgb(255, 149, 0);
+	color:white;
+  }
+
+body {
+	background: #fbfbfb;
+}
+
+h1 {
+	padding: 18px 0px;
+	font-size: 48px;
+	color: #4f4539;
+	font-family: 'creamson', Arial;
+}
+
+h2 {
+	padding: 16px 0px;
+	font-size: 32px;
+	color: #4f4539;
+	font-family: 'creamson', Arial;
+}
+
+h3,
+h4,
+h5,
+h6 {
+	padding: 12px 0px;
+	font-size: 24px;
+	color: #4f4539;
+	font-family: 'creamson', Arial;
+}
+
+p {
+	color: rgb(79, 69, 57);
+}
+
+.bodyLarge {
+	font-size: 32px;
+	font-family: 'barlow';
+	font-weight: 300;
+	color: rgb(79, 69, 57, 0.6);
+}
+
+.bodyMedium {
+	font-size: 24px;
+	font-family: 'barlow';
+	font-weight: 300;
+	color: rgb(79, 69, 57, 0.6);
+}
+
+.bodySmall {
+	font-size: 18px;
+	font-family: 'barlow';
+	font-weight: 300;
+	color: rgb(79, 69, 57, 0.6);
+}
+
+.labelLarge {
+	font-size: 26px;
+	font-family: 'creamson', Arial;
+	color: rgb(79, 69, 57);
+}
+
+.labelMedium {
+	font-size: 20px;
+	font-family: 'creamson', Arial;
+	color: rgb(79, 69, 57);
+}
+
+.labelSmall {
+	font-size: 16px;
+	font-family: 'creamson', Arial;
+	color: rgb(79, 69, 57);
+}
+
+.headlineLarge {
+	font-size: 26px;
+	font-family: 'barlow', Arial;
+	font-weight: 700;
+	color: rgb(79, 69, 57);
+}
+
+.headlineMedium {
+	font-size: 20px;
+	font-family: 'barlow', Arial;
+	font-weight: 700;
+	color: rgb(79, 69, 57);
+}
+
+.headlineSmall {
+	font-size: 18px;
+	font-family: 'barlow', Arial;
+	font-weight: 700;
+	color: rgb(79, 69, 57);
+}
+
+.button {
+	width: 100%;
+	padding: 19px;
+
+	border-radius: 8px;
+	border: none;
+	box-shadow: -2px 4px 10px rgba(0, 0, 0, 0.2);
+
+	background-color: rgb(255, 166, 44);
+	color: #fbfbfb;
+}
+
+.button:hover {
+	background-color: rgb(255, 149, 0);
+	cursor: pointer;
+
+	transition: all 250ms;
+}
+
+button:disabled {
+	opacity: 0.6;
+}
+
+.buttonCajero {
+	background-color: rgb(85, 0, 164);
+	color: #fbfbfb;
+}
+
+.buttonCajero:hover {
+	background-color: rgb(104, 0, 164);
+	cursor: pointer;
+
+	transition: all 250ms;
+}
+
+.buttonLogistica {
+	background-color: rgb(0, 56, 164);
+	color: #fbfbfb;
+}
+
+.buttonLogistica:hover {
+	background-color: rgb(0, 98, 164);
+	cursor: pointer;
+
+	transition: all 250ms;
+}
+
+.buttonRevision {
+	background-color: rgb(11, 0, 164);
+	color: #fbfbfb;
+}
+
+.buttonRevision:hover {
+	background-color: rgb(0, 57, 164);
+	cursor: pointer;
+
+	transition: all 250ms;
+}
+
+.buttonNoRevision {
+	background-color: rgb(127, 140, 163);
+	color: #fbfbfb;
+}
+
+.buttonNoRevision:hover {
+	background-color: rgb(179, 184, 194);
+	cursor: pointer;
+
+	transition: all 250ms;
+}
+
+.buttonCancelado {
+	background-color: rgb(164, 0, 6);
+	color: #fbfbfb;
+}
+
+.buttonCancelado:hover {
+	background-color: rgb(192, 0, 10);
+	cursor: pointer;
+
+	transition: all 250ms;
+}
+
+.buttonProceso {
+	background-color: #1F1B16;
+	color: #fbfbfb;
+}
+
+.buttonProceso:hover {
+	background-color: #35312b;
+	cursor: pointer;
+
+	transition: all 250ms;
+}
+
+.buttonSeparado {
+	background-color: rgb(255, 136, 0);
+	color: #fbfbfb;
+}
+
+.buttonSeparado:hover {
+	background-color: rgb(255, 153, 0);
+	cursor: pointer;
+
+	transition: all 250ms;
+}
+
+.buttonNotificacion {
+	background-color: #1f3f70;
+	color: #fbfbfb;
+}
+
+.buttonNotificacion:hover {
+	background-color: #314b72;
+	cursor: pointer;
+
+	transition: all 250ms;
+}
+
+.buttonEntregado {
+	background-color: #1f704e;
+	color: #fbfbfb;
+}
+
+.buttonEntregado:hover {
+	background-color: #36814c;
+	cursor: pointer;
+
+	transition: all 250ms;
+}
+
+.buttonRegresando {
+	background-color: #70361f;
+	color: #fbfbfb;
+
+	margin: 16px 0px;
+}
+
+.buttonRegresando:hover {
+	background-color: #c4653f;
+	cursor: pointer;
+
+	transition: all 250ms;
+}
+
+.buttonRetorno {
+	background-color: #701f1f;
+	color: #fbfbfb;
+
+	margin: 16px 0px;
+}
+
+.buttonRetorno:hover {
+	background-color: #9c2a2a;
+	cursor: pointer;
+
+	transition: all 250ms;
+}
+
+.buttonDevolucion {
+	background-color: #643e3e;
+	color: #fbfbfb;
+
+	margin: 16px 0px;
+}
+
+.buttonDevolucion:hover {
+	background-color: #7c3b3b;
+	color: #fbfbfb;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+.ModalBackground {
+	cursor: pointer;
+}
+
+.OP6 {
+	color: #8C8C8C;
+}
+
+.OP4 {
+	opacity: 0.4;
+}
+
+.SpaceHeader {
+	margin-top: 128px;
+}
+
+.Bloqueado {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	height: 100%;
+
+	background-color: rgb(255, 255, 255, 0.3);
+}
+
+.swal2-popup {
+	font-size: 1.6rem !important;
+	font-family: 'barlow', arial !important;
+}
+
+.swal2-title {
+	font-family: 'creamson', arial !important;
+}

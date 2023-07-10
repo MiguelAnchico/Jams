@@ -1,0 +1,26 @@
+.CardHeader {
+	width: 100%;
+
+	display: grid;
+	grid-template-columns: 0.4fr 1fr 0.4fr;
+
+	justify-items: center;
+	align-items: center;
+
+	margin: 16px 0px;
+}
+
+.CardHeader .CardProfile {
+	width: 38px;
+	height: 38px;
+}
+
+.CardHeader .CardMessage .icon {
+	width: 38px;
+	filter: invert(8%) sepia(29%) saturate(411%) hue-rotate(354deg)
+		brightness(95%) contrast(93%);
+}
+
+.CardHeader .CardContent {
+	justify-self: left;
+}

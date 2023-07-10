@@ -1,0 +1,18 @@
+.LoginRol .Rols {
+	width: 650px;
+
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.LoginRol {
+	width: 100vw;
+	height: 100vh;
+
+	display: flex;
+	flex-direction: column;
+
+	justify-content: center;
+	align-items: center;
+}

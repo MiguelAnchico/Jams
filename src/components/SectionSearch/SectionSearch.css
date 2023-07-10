@@ -1,0 +1,14 @@
+.SectionSearch {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.SectionSearch .SearchElement {
+    margin: auto;
+}
+
+.SectionSearch .searchAnswear{
+    text-align: center;
+}

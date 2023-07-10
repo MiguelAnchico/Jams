@@ -1,0 +1,46 @@
+{
+	"name": "jans",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"format": "prettier --write .",
+		"lint": "eslint --fix . --ext .js,.jsx",
+		"host": "vite --host"
+	},
+	"dependencies": {
+		"@reduxjs/toolkit": "^1.9.2",
+		"axios": "^1.3.2",
+		"docx": "^8.0.1",
+		"docx-templates": "^4.11.0",
+		"file-saver": "^2.0.5",
+		"fs": "^0.0.1-security",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-hook-form": "^7.43.1",
+		"react-hot-toast": "^2.4.0",
+		"react-query": "^3.39.3",
+		"react-redux": "^8.0.5",
+		"react-router-dom": "^6.8.1",
+		"react-select": "^5.7.0",
+		"sweetalert2": "^11.7.2"
+	},
+	"devDependencies": {
+		"@types/react": "^18.0.27",
+		"@types/react-dom": "^18.0.10",
+		"@vitejs/plugin-basic-ssl": "^1.0.1",
+		"@vitejs/plugin-react": "^3.1.0",
+		"eslint": "^8.33.0",
+		"eslint-config-prettier": "^8.6.0",
+		"eslint-config-standard": "^17.0.0",
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-plugin-n": "^15.6.1",
+		"eslint-plugin-promise": "^6.1.1",
+		"eslint-plugin-react": "^7.32.2",
+		"prettier": "^2.8.3",
+		"vite": "^4.1.0"
+	}
+}
